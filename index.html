@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,25 +16,32 @@
     <div class="wrapper">
 
         <!-- Navbar -->
-        <div class="navbar">
-            <ul class="nav-elements">
-                <li>Home</li>
-                <li>Education</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
-                <li><i class="fa-solid fa-sun"></i></li>
-            </ul>
+        <div class="navbar nav-elements">
+
+            <a href="">Home</a>
+            <a href="">Education</a>
+            <a href="">Skills</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+            <a><i class="fa-solid fa-sun"></i></a>
+
         </div>
         <!-- Home -->
         <div class="home">
             <div class="intro-text">
                 <div class="text">
                     <img class="profile-img" src="images/rotated.png" alt="" srcset="">
-                    <p>Hello World! </p>
-                    <p>I'm <span>Keshab Roka</span> </p>
-                    <span class="typed-out">Full Stack Developer</span>
-                    <button class="hire-me">Hire Me</button>
+                    <p class="hello">Hello World! </p>
+
+                    <p>I'm <span class="name" data-text="Keshab Roka">Keshab Roka</span> </p>
+                    <div class="loading">
+                        <h2 class="typewritter">Developer</h2>
+                    </div>
+                    <div class="buttons">
+                        <button class="hire-me contact-btn">Contact Me</button>
+                        <button class="hire-me download-btn">Download CV</button>
+                    </div>
+
                 </div>
             </div>
             <img class="home-img" src="images/home.svg" alt="" srcset="">
@@ -43,63 +50,62 @@
             </div> -->
         </div>
         <!-- Education -->
-        <div class="education">
-            <div class="experience" id="experience">
-                <div class="container">
-                    <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+        <!-- <div class="education"> -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
 
-                        <h2>Education</h2>
-                    </header>
-                    <div class="timeline">
-                        <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                            <div class="timeline-text">
-                                <div class="timeline-date">2025 - 2030</div>
-                                <h2>Gojek</h2>
-                                <h4>Jakarta, Indonesia</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut
-                                    blandit semper pretium.
-                                </p>
-                            </div>
+                    <p class="education-heading">Education</p>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2016 - 2017</div>
+                            <h2>Diploma of Science</h2>
+                            <h4>Tulsipur,Nepal</h4>
+                            <p>
+                                After I completed my primary level education, I joined Tulsi Higher boarding of
+                                Science. I completd my +2 from there taking Physcics as a main subject.
+                            </p>
                         </div>
-                        <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                            <div class="timeline-text">
-                                <div class="timeline-date">2030 - 2035</div>
-                                <h2>Traveloka</h2>
-                                <h4>Indonesia</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut
-                                    blandit semper pretium.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                            <div class="timeline-text">
-                                <div class="timeline-date">2035 - 2040</div>
-                                <h2>Microsoft</h2>
-                                <h4>Redmond, Washington, United States</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut
-                                    blandit semper pretium.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                            <div class="timeline-text">
-                                <div class="timeline-date">2040 - 2050</div>
-                                <h2>Google LLC</h2>
-                                <h4> Mountain View, California, United States</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut
-                                    blandit semper pretium.
-                                </p>
-                            </div>
-                        </div>
-
                     </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2018 - 2020</div>
+                            <h2>Diploma and Advance diploma in IT</h2>
+                            <h4>Australia</h4>
+                            <p>
+                                The journey of technology started from AIBT college where I completed my diploma and
+                                advance diploma in IT.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2020 - 2022</div>
+                            <h2>Bachelor of IT</h2>
+                            <h4>Australia</h4>
+                            <p>
+                                After the completion of my Advanced diploma in IT, I joined AIH from where I
+                                graduated in Business Information System.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2022 - present</div>
+                            <h2>MERN stack web development Bootcamp</h2>
+                            <h4> Australia</h4>
+                            <p>
+                                I joined Dented Code Academy to gear up my career in Software Industry..
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+
         <!-- Skills -->
         <div class="skills">
 
@@ -107,16 +113,25 @@
                 <img class="skill-image" src="images/feelingProud.svg" alt="" srcset="">
             </div>
             <div class="skills-box">
-                <p>What I Do</p>
+                <p class="skill-heading">What I Do</p>
                 <div class="skills-cards1">
-                    <div class="skill-icon"><i class="fa-brands icons fa-html5"></i></div>
-                    <div class="skill-icon"><i class="fa-brands icons fa-css3"></i></div>
-                    <div class="skill-icon"><i class="fa-brands icons fa-js"></i></div>
-                    <div class="skill-icon"><i class="fa-brands icons fa-bootstrap"></i></div>
 
+                    <div class="skill-icon"><img class="html-img" src="images/file_type_html_icon_130541.png" alt=""
+                            srcset=""></div>
+
+                    <div class="skill-icon"><img class="css-img" src="images/file_type_css_icon_130661.png" alt=""
+                            srcset=""></div>
+
+
+                    <div class="skill-icon"><img class="js-img" src="images/file_type_js_official_icon_130509.png"
+                            alt="" srcset="">
+                    </div>
+
+                    <div class="skill-icon"><img class="bootstrap-img"
+                            src="images/bootstrap_plain_wordmark_logo_icon_146620.png" alt="" srcset=""></div>
                 </div>
                 <div class="skills-cards2">
-                    <!-- <div class="skill-icon"><i class="fa-brands icons fa-node-js"></i></div> -->
+
                     <div class="skill-icon"><img class="node-img"
                             src="images/nodejs_original_wordmark_logo_icon_146412.png" alt="" srcset=""></div>
 
@@ -135,14 +150,13 @@
         <div class="project">
 
             <div class="project-text-box">
-                <h1>My Projects</h1>
-                <p>Most of my projects are based on MERN satck techs</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, recusandae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, distinctio eaque aperiam
-                    sapiente reiciendis est.</p>
+                <p class="project-heading">My Projects</p>
+                <p class="project-text">Most of my projects are based on <span class="mern">MERN</span> satck techs</p>
+                <p class="project-text">Some of the recent projects I have worked are below</p>
+
 
             </div>
-            <img class="project-image" src="images/developerActivity.svg" alt="" srcset="">
+            <img class="project-image" src="images/projects.svg" alt="" srcset="">
 
 
         </div>
@@ -180,14 +194,18 @@
                                 pment</span> .</p>
 
                     </div>
-                    <div class="contact-icons">
-                        <div class="facebook"><i class="fa-brands fa-facebook-square"></i></div>
-                        <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
-                        <div class="twitter"><i class="fa-brands fa-twitter-square"></i></div>
-                        <div class="github"><i class="fa-brands fa-github-square"></i></div>
-                        <div class="linkedin">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </div>
+                    <div class="social-btns">
+                        <a href="https://www.facebook.com/keshab.rc.3" class="btn facebook"><i
+                                class="fa fa-brands fa-facebook-square"></i></a>
+                        <a href="https://www.Instagram.com/_baskcr98_" class="btn instagram"><i
+                                class="fa fa-brands fa-instagram"></i></a>
+                        <a href="https://www.twitter.com/keshabroka3
+" class="btn twitter"><i class="fa fa-brands fa-twitter-square"></i></a>
+                        <a href="https://github.com/keshab4855" class="btn github"><i
+                                class="fa fa-brands fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com/in/keshab-roka-29657b199" class="btn linkedin">
+                            <i class="fa fa-brands fa-linkedin"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -213,12 +231,16 @@
                 <div class="social-icons"></div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer>
+
+        <div class="footer">
             Copyright &copy; 2022 Keshab Roka
-        </footer>
+        </div>
+
+
     </div>
-    </div>
+
+    <!-- Footer -->
+
 
 </body>
 
