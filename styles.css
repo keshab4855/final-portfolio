@@ -7,7 +7,6 @@ body {
 }
 .wrapper {
   width: 90vw;
-  height: 100vh;
   margin: 0 auto 0 auto;
 }
 .navbar {
@@ -38,7 +37,7 @@ body {
   width: 95vw;
   display: flex;
   justify-content: space-around;
-  height: 100vh;
+  height: 85vh;
   margin-top: 3rem;
 }
 
@@ -645,6 +644,9 @@ header {
   }
 }
 @media (max-width: 1000px) {
+  .nav-elements a {
+    font-size: 1.3rem;
+  }
   .text {
     padding-top: 6rem;
     font-size: 1.1rem;
@@ -723,6 +725,12 @@ header {
   }
 }
 @media (max-width: 850px) {
+  .hello {
+    font-size: 1.5rem;
+  }
+  .nav-elements a {
+    font-size: 1.2rem;
+  }
   .text {
     padding-top: 6rem;
     font-size: 1rem;
@@ -811,5 +819,100 @@ header {
     font-size: 2rem;
     padding: 2rem;
     border-radius: 50%;
+  }
+}
+@media (max-width: 710px) {
+  .hello {
+    font-size: 1.3rem;
+  }
+  .nav-elements a {
+    font-size: 1.1rem;
+  }
+  .text {
+    padding-top: 6rem;
+    font-size: 0.7rem;
+  }
+  .hire-me {
+    width: 6rem;
+    padding: 0.5rem 0.4rem;
+    font-size: 0.8rem;
+  }
+  .profile-img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .home-img {
+    height: 65vh;
+    width: 16rem;
+  }
+  .skill-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .skill-heading::after {
+    width: 40%;
+  }
+  .skill-image {
+    width: 13.5rem;
+    height: 90%;
+  }
+  .skill-heading,
+  .contact-heading,
+  .project-heading,
+  .education-heading {
+    font-size: 1.5rem;
+  }
+  .project-image {
+    width: 16rem;
+    height: 80%;
+  }
+  .project-text-box {
+    width: 16rem;
+  }
+
+  .project-text {
+    font-size: 1rem;
+  }
+
+  .experience .timeline .timeline-text {
+    padding: 12px;
+  }
+  .experience .timeline .timeline-text h4 {
+    font-size: 0.8rem;
+  }
+  .experience .timeline .timeline-date {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .contact-content {
+    font-size: 0.8rem;
+  }
+
+  .contact-img {
+    width: 14rem;
+  }
+
+  .social-btns .btn .fa {
+    font-size: 1.5rem;
+  }
+  .social-btns .btn {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+  }
+  .fa-brands {
+    font-size: 2.8rem;
+  }
+  .social-btns .btn:focus .fa,
+  .social-btns .btn:hover .fa {
+    color: #fff;
+    transform: scale(1);
+  }
+
+  .fa-envelope,
+  .fa-location-dot,
+  .fa-phone {
+    font-size: 1.7rem;
+    padding: 1.7rem;
   }
 }
